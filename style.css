@@ -226,6 +226,7 @@ h4{
     text-align: left;
 }
 
+
 .cta{
     margin: 100px auto;
     width: 80%;
@@ -246,12 +247,15 @@ h4{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 1px 0;
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+}
+.footer strong{
+    
 }
 nav .fa{
     display: none;
@@ -261,6 +265,11 @@ nav .fa{
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
+    }
+    @media(max-width:700px){
+        .row{
+            flex-direction: column;
+        }
     }
 
 .nav-links ul li{
@@ -288,6 +297,20 @@ nav .fa{
     padding: 22px;
 }
 }
+@media(max-width: 700px) {
+    .testimonial- img{
+        
+        margin-left: 00px;
+        margin-right: 15px;
+        
+    }
+}
+@media (max-width: 700px) {
+    .cta h1{
+        font-size: 20px;
+    }
+}
+
 
 
 
